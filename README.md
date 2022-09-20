@@ -3,7 +3,7 @@
 ## Task
 ***
 Creating a Weather App using React JS which shows the weather update by calling an weather api using axios library . 
-## Skills
+## Skills Required
 ***
 Good Knowledge of React.js, Node.js, HTML & CSS. 
 ## Technologies
@@ -49,7 +49,7 @@ Dependencies:
 ***
 ### Creating a Weather App Project using React Js, AXIOS and Weather API.
 ***
-* Folder -> REST-API(models and routes).
+* Folder -> weather-app(src).
 * Files -> 
 #### "index.js": This is the file that will be called once we will run the project to render.
 #### "App.js": Use for building our webpage and imporing the weather api.
