@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# React Weather App 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Task
+***
+Creating a Weather App using React JS which shows the weather update by calling an weather api using axios library . 
+## Skills
+***
+Good Knowledge of React.js, Node.js, HTML & CSS. 
+## Technologies
+***
+* [Visual Studio Code](https://code.visualstudio.com/Download) :Version 1.69
+* [Node.js](https://nodejs.org/en/download/) Version 16.16.0 (includes npm 8.11.0).
+* [Github](https://github.com/) Version 5.10.3 
+* [Weather API](https://openweathermap.org/).
 
-## Available Scripts
+## Installation
+***
+Steps to install Visual Studio code:
 
-In the project directory, you can run:
+* Click on [Visual Studio Code](https://code.visualstudio.com/Download) and install according to your operating system.
+* Also install [Github Desktop](https://desktop.github.com/).
+***
+Steps to install Node.js:
 
-### `npm start`
+* Click on [Node.js](https://nodejs.org/en/download/) and install according to your operating system.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+***
+Packages:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Open Terminal of VS Code type `npx create-react-app weather-app` to install all folders and json files.
+* After adding all the files and folders type `npm start` into the terminal to start your server.
+* Now install axios by using `npm i axios` into the terminal and then import in App.js file to make a request to an API and return data     from an API.
+***
+Dependencies:
 
-### `npm test`
+* Following dependencies will be added to package.json file by writing to terminal 'npm install express nodemon body-parser dotenv mongoose'.
+```bash
+ "dependencies": {
+     "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  }
+```
+***
+### Creating a Weather App Project using React Js, AXIOS and Weather API.
+***
+* Folder -> REST-API(models and routes).
+* Files -> 
+#### "index.js": This is the file that will be called once we will run the project to render.
+#### "App.js": Use for building our webpage and imporing the weather api.
+#### "index.css": For designing our webpage using Css.
+* Finish
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Execution
+***
+* Start building our webpage in App.js file in function App using JSX format. 
+* In container class we make our top and bottom of our webpage.
+* Using useState hook for getting data and location.
+* Getting our API link from openweathermap website and using in our url by getting using axios.
+* To connect with API make a search function with 'searchLocation' function and set location.
+```bash
+ <div className="search">
+        <input
+          value={location}
+          onChange={event => setLocation(event.target.value)}
+          onKeyPress={searchLocation}
+          placeholder='Enter Location'
+          type="text" />
+      </div>
+```
+* Now getting values from API by targeting data items by using weather.json file.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Result
+***
+* The calling of weather api is successful into our webpage using axios.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![REST API](https://github.com/Adarsh00712/REST-API/blob/main/Screenshots/1.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+***
+![REST API](https://github.com/Adarsh00712/REST-API/blob/main/Screenshots/2.png)
 
-### `npm run eject`
+***
+![REST API](https://github.com/Adarsh00712/REST-API/blob/main/Screenshots/3.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+***
+![REST API](https://github.com/Adarsh00712/REST-API/blob/main/Screenshots/4.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+***
+![REST API](https://github.com/Adarsh00712/REST-API/blob/main/Screenshots/6.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Support
+***
+For Support email at adarshdwivedi2@gmail.com
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
