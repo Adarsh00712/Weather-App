@@ -80,19 +80,19 @@ Dependencies:
 ***
 * The calling of weather api is successful into our webpage using axios.
 
-![REST API](https://github.com/Adarsh00712/REST-API/blob/main/Screenshots/1.png)
+![Weather App](https://github.com/Adarsh00712/Weather-App/blob/main/Screenshots/1.png)
 
 ***
-![REST API](https://github.com/Adarsh00712/REST-API/blob/main/Screenshots/2.png)
+![Weather Appps://github.com/Adarsh00712/Weather-App/blob/main/Screenshots/2.png)
 
 ***
-![REST API](https://github.com/Adarsh00712/REST-API/blob/main/Screenshots/3.png)
+![W] ts://github.com/Adarsh00712/Weather-App/blob/main/Screenshots/3.png)
 
 ***
-![REST API](https://github.com/Adarsh00712/REST-API/blob/main/Screenshots/4.png)
+![REST API](https://github.com/Adarsh00712/Weather-App/blob/main/Screenshots/4.png)
 
 ***
-![REST API](https://github.com/Adarsh00712/REST-API/blob/main/Screenshots/6.png)
+![REST API](https://github.com/Adarsh00712/Weather-App/blob/main/Screenshots/6.png)
 
 ## Support
 ***
