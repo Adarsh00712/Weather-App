@@ -83,10 +83,10 @@ Dependencies:
 ![Weather App](https://github.com/Adarsh00712/Weather-App/blob/main/Screenshots/1.png)
 
 ***
-![Weather Appps://github.com/Adarsh00712/Weather-App/blob/main/Screenshots/2.png)
+![Weather App](https://github.com/Adarsh00712/Weather-App/blob/main/Screenshots/2.png)
 
 ***
-![W] ts://github.com/Adarsh00712/Weather-App/blob/main/Screenshots/3.png)
+![Weather App](https://github.com/Adarsh00712/Weather-App/blob/main/Screenshots/3.png)
 
 ***
 ![REST API](https://github.com/Adarsh00712/Weather-App/blob/main/Screenshots/4.png)
